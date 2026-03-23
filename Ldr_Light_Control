@@ -1,0 +1,13 @@
+int ldr = A0;
+int led = **;
+
+void setup(){
+  pinMode(led,OUTPUT);
+}
+
+void loop(){
+  int val = analogRead(ldr);
+
+  if(val < 500) digitalWrite(led,HIGH);
+  else digitalWrite(led,LOW);
+}
