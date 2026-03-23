@@ -1,0 +1,13 @@
+int l1=##, l2=##, l3=##;
+
+void setup(){
+  pinMode(l1,OUTPUT);
+  pinMode(l2,OUTPUT);
+  pinMode(l3,OUTPUT);
+}
+
+void loop(){
+  digitalWrite(l1,HIGH); delay(300); digitalWrite(l1,LOW);
+  digitalWrite(l2,HIGH); delay(300); digitalWrite(l2,LOW);
+  digitalWrite(l3,HIGH); delay(300); digitalWrite(l3,LOW);
+}
